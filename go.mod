@@ -20,7 +20,10 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.6 // indirect
 	github.com/stretchr/testify v1.7.0
 	github.com/ugorji/go v1.2.4 // indirect
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
+	golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c
+	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
+	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
+	golang.org/x/text v0.3.2
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v8 v8.18.2
 	gopkg.in/yaml.v2 v2.4.0 // indirect
