@@ -2,15 +2,17 @@ package main
 
 import (
 	"fmt"
+	"io"
 
 	"github.com/gin-gonic/gin"
 
 	"golang.org/x/text/encoding/unicode"
+	"golang.org/x/text/transform"
 
-	"github.com/jinzhu/gorm"
 	"github.com/gothinkster/golang-gin-realworld-example-app/articles"
 	"github.com/gothinkster/golang-gin-realworld-example-app/common"
 	"github.com/gothinkster/golang-gin-realworld-example-app/users"
+	"github.com/jinzhu/gorm"
 )
 
 func Migrate(db *gorm.DB) {
@@ -20,6 +22,15 @@ func Migrate(db *gorm.DB) {
 	db.AutoMigrate(&articles.FavoriteModel{})
 	db.AutoMigrate(&articles.ArticleUserModel{})
 	db.AutoMigrate(&articles.CommentModel{})
+}
+
+func NewReader(rd io.Reader) io.Reader {
+	// Make an tranformer that decodes MS-Windows (16LE) UTF files:
+	winutf := unicode.UTF16(unicode.LittleEndian, unicode.IgnoreBOM)
+	// Make a transformer that is like winutf, but abides by BOM if found:
+	decoder := winutf.NewDecoder()
+	// Make a Reader that uses decoder:
+	return transform.NewReader(rd, unicode.BOMOverride(decoder))
 }
 
 func main() {
