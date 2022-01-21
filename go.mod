@@ -4,117 +4,117 @@ go 1.15
 
 require (
 	github.com/denisenkom/go-mssqldb v0.9.0 // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/russross/blackfriday	v2.0.1
-	github.com/uber-go/zap	v1.10.0
-	github.com/uber-go/zap/internal/exit	v1.10.0
-	github.com/uber-go/zap/internal/bufferpool	v1.10.0
-	github.com/uber-go/zap/internal/color	v1.10.0
-	github.com/uber-go/zap/zapcore	v1.10.0
-	github.com/golang/xerrors	9bdfabe68543c54f90421aeb9a60ef8061b5b544
-	github.com/protocolbuffers/protobuf-go	v1.23.0
-	github.com/golang/net/html	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/text/language	v0.3.3
-	github.com/golang/text/internal/language/compact	v0.3.3
-	github.com/golang/text/unicode/bidi	v0.3.3
-	github.com/golang/text/unicode/rangetable	v0.3.3
-	github.com/golang/tools/go/gcexportdata	gopls/v0.4.2-pre1
-	github.com/golang/tools/go/types/typeutil	gopls/v0.4.2-pre1
-	github.com/golang/text/encoding/charmap	v0.3.3
-	github.com/golang/text/internal/triegen	v0.3.3
-	github.com/golang/crypto/openpgp	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/net/html/charset	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/tools/internal/event/keys	gopls/v0.4.2-pre1
-	github.com/golang/crypto/openpgp/elgamal	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/sys/windows	10377860bb8e8e259ba97296f3b7656772f975bc
-	github.com/golang/text/transform	v0.3.3
-	github.com/golang/sys/unix	10377860bb8e8e259ba97296f3b7656772f975bc
-	github.com/golang/net/idna	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/text/unicode/norm	v0.3.3
-	github.com/golang/text/internal/gen	v0.3.3
-	github.com/golang/crypto/openpgp/armor	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/text/encoding/korean	v0.3.3
-	github.com/golang/text/encoding/japanese	v0.3.3
-	github.com/golang/text/encoding/traditionalchinese	v0.3.3
-	github.com/golang/tools/internal/event	gopls/v0.4.2-pre1
-	github.com/golang/tools/go/packages	gopls/v0.4.2-pre1
-	github.com/golang/text/internal/tag	v0.3.3
-	github.com/golang/net/context/ctxhttp	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/net/http/httpguts	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/net/http2	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/text/encoding	v0.3.3
-	github.com/golang/tools/internal/typesinternal	gopls/v0.4.2-pre1
-	github.com/golang/tools/go/internal/packagesdriver	gopls/v0.4.2-pre1
-	github.com/golang/crypto/openpgp/packet	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/crypto/ssh/terminal	ab33eee955e00ff7c973405b2780aca48d293014
-	github.com/golang/net/http2/hpack	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/text/internal/ucd	v0.3.3
-	github.com/golang/tools/internal/event/core	gopls/v0.4.2-pre1
-	github.com/golang/tools/go/internal/gcimporter	gopls/v0.4.2-pre1
-	github.com/golang/text/runes	v0.3.3
-	github.com/golang/xerrors/internal	9bdfabe68543c54f90421aeb9a60ef8061b5b544
-	github.com/golang/text/encoding/simplifiedchinese	v0.3.3
-	github.com/golang/sync/errgroup	cd5d95a43a6e21273425c7ae415d3df9ea832eeb
-	github.com/golang/tools/internal/gocommand	gopls/v0.4.2-pre1
-	github.com/golang/net/context	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/text/encoding/unicode	v0.3.3
-	github.com/golang/text/internal/language	v0.3.3
-	github.com/golang/text/unicode/cldr	v0.3.3
-	github.com/golang/text/encoding/internal	v0.3.3
-	github.com/golang/text/internal/utf8internal	v0.3.3
-	github.com/golang/text/encoding/htmlindex	v0.3.3
-	github.com/golang/tools/internal/event/label	gopls/v0.4.2-pre1
-	github.com/golang/mod/semver	v0.2.0
-	github.com/golang/crypto/cast5	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/text/secure/bidirule	v0.3.3
-	github.com/golang/crypto/openpgp/s2k	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/net/html/atom	627f9648deb96c27737b83199d44bb5c1010cbcf
-	github.com/golang/crypto/openpgp/errors	70a84ac30bf957c7df57edd1935d2081871515e1
-	github.com/golang/tools/internal/packagesinternal	gopls/v0.4.2-pre1
-	github.com/golang/text/encoding/internal/identifier	v0.3.3
-	github.com/golang/time/rate	9d24e82272b4f38b78bc8cff74fa936d31ccd8ef
-	github.com/go-logr/logr	v0.1.0
-	github.com/googleapis/gnostic/extensions	v0.3.1
-	github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg	v0.4.1
-	github.com/golang/groupcache/lru	5b532d6fd5efaf7fa130d4e859a2fde0fc3a9e1b
-	github.com/matttproud/golang_protobuf_extensions/pbutil	v1.0.1
-	github.com/googleapis/gnostic/compiler	v0.3.1
-	github.com/prometheus/procfs/internal/util	v0.0.11
-	github.com/prometheus/procfs/internal/fs	v0.0.11
-	github.com/modern-go/reflect2	v1.0.1
-	github.com/google/gofuzz	v1.1.0
-	github.com/prometheus/client_model/go	v0.2.0
-	github.com/prometheus/procfs	v0.0.11
-	github.com/modern-go/concurrent	1.0.3
-	github.com/googleapis/gnostic	v0.3.1
-	https://source.codeaurora.org/quic/lc/external/github.com/maruel/panicparse/	v1.5.0
-	github.com/google/go-containerregistry/pkg/crane	v0.4.1
-	github.com/prometheus/common/model	v0.4.1
-	github.com/google/go-containerregistry/cmd/crane	11a80c250bc0d3fbb22992354e47505898cf2814
-	github.com/prometheus/common/expfmt	v0.4.1
+	github.com/dgrijalva/jwt-go v3.2.0 // indirect
+	github.com/russross/blackfriday v2.0.1 // indirect // indirect
+	github.com/uber-go/zap v1.10.0 // indirect
+	github.com/uber-go/zap/internal/exit v1.10.0 // indirect
+	github.com/uber-go/zap/internal/bufferpool v1.10.0 // indirect
+	github.com/uber-go/zap/internal/color v1.10.0 // indirect
+	github.com/uber-go/zap/zapcore v1.10.0 // indirect
+	github.com/golang/xerrors // indirect
+	github.com/protocolbuffers/protobuf-go v1.23.0 // indirect
+	github.com/golang/net/html // indirect
+	github.com/golang/text/language v0.3.3 // indirect
+	github.com/golang/text/internal/language/compact v0.3.3 // indirect
+	github.com/golang/text/unicode/bidi v0.3.3 // indirect
+	github.com/golang/text/unicode/rangetable v0.3.3 // indirect
+	github.com/golang/tools/go/gcexportdata gopls/v0.4.2-pre1 // indirect
+	github.com/golang/tools/go/types/typeutil gopls/v0.4.2-pre1 // indirect
+	github.com/golang/text/encoding/charmap v0.3.3 // indirect
+	github.com/golang/text/internal/triegen v0.3.3 // indirect
+	github.com/golang/crypto/openpgp // indirect
+	github.com/golang/net/html/charset // indirect
+	github.com/golang/tools/internal/event/keys gopls/v0.4.2-pre1 // indirect
+	github.com/golang/crypto/openpgp/elgamal // indirect
+	github.com/golang/sys/windows // indirect
+	github.com/golang/text/transform v0.3.3 // indirect
+	github.com/golang/sys/unix // indirect
+	github.com/golang/net/idna // indirect
+	github.com/golang/text/unicode/norm v0.3.3 // indirect
+	github.com/golang/text/internal/gen v0.3.3 // indirect
+	github.com/golang/crypto/openpgp/armor // indirect
+	github.com/golang/text/encoding/korean v0.3.3 // indirect
+	github.com/golang/text/encoding/japanese v0.3.3 // indirect
+	github.com/golang/text/encoding/traditionalchinese v0.3.3 // indirect
+	github.com/golang/tools/internal/event gopls/v0.4.2-pre1 // indirect
+	github.com/golang/tools/go/packages gopls/v0.4.2-pre1 // indirect
+	github.com/golang/text/internal/tag v0.3.3 // indirect
+	github.com/golang/net/context/ctxhttp // indirect
+	github.com/golang/net/http/httpguts // indirect
+	github.com/golang/net/http2 // indirect
+	github.com/golang/text/encoding v0.3.3 // indirect
+	github.com/golang/tools/internal/typesinternal gopls/v0.4.2-pre1 // indirect
+	github.com/golang/tools/go/internal/packagesdriver gopls/v0.4.2-pre1 // indirect
+	github.com/golang/crypto/openpgp/packet // indirect
+	github.com/golang/crypto/ssh/terminal // indirect
+	github.com/golang/net/http2/hpack // indirect
+	github.com/golang/text/internal/ucd v0.3.3 // indirect
+	github.com/golang/tools/internal/event/core gopls/v0.4.2-pre1 // indirect
+	github.com/golang/tools/go/internal/gcimporter gopls/v0.4.2-pre1 // indirect
+	github.com/golang/text/runes v0.3.3 // indirect
+	github.com/golang/xerrors/internal // indirect
+	github.com/golang/text/encoding/simplifiedchinese v0.3.3 // indirect
+	github.com/golang/sync/errgroup // indirect
+	github.com/golang/tools/internal/gocommand gopls/v0.4.2-pre1 // indirect
+	github.com/golang/net/context // indirect
+	github.com/golang/text/encoding/unicode v0.3.3 // indirect
+	github.com/golang/text/internal/language v0.3.3 // indirect
+	github.com/golang/text/unicode/cldr v0.3.3 // indirect
+	github.com/golang/text/encoding/internal v0.3.3 // indirect
+	github.com/golang/text/internal/utf8internal v0.3.3 // indirect
+	github.com/golang/text/encoding/htmlindex v0.3.3 // indirect
+	github.com/golang/tools/internal/event/label gopls/v0.4.2-pre1 // indirect
+	github.com/golang/mod/semver v0.2.0 // indirect
+	github.com/golang/crypto/cast5 // indirect
+	github.com/golang/text/secure/bidirule v0.3.3 // indirect
+	github.com/golang/crypto/openpgp/s2k // indirect
+	github.com/golang/net/html/atom // indirect
+	github.com/golang/crypto/openpgp/errors // indirect
+	github.com/golang/tools/internal/packagesinternal gopls/v0.4.2-pre1 // indirect
+	github.com/golang/text/encoding/internal/identifier v0.3.3 // indirect
+	github.com/golang/time/rate // indirect
+	github.com/go-logr/logr v0.1.0 // indirect
+	github.com/googleapis/gnostic/extensions v0.3.1 // indirect
+	github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg v0.4.1 // indirect
+	github.com/golang/groupcache/lru  // indirect
+	github.com/matttproud/golang_protobuf_extensions/pbutil v1.0.1 // indirect
+	github.com/googleapis/gnostic/compiler v0.3.1 // indirect
+	github.com/prometheus/procfs/internal/util v0.0.11 // indirect
+	github.com/prometheus/procfs/internal/fs v0.0.11 // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/google/gofuzz v1.1.0 // indirect // indirect
+	github.com/prometheus/client_model/go v0.2.0 //  ndirect // indirect
+	github.com/prometheus/procfs v0.0.11 // indirect
+	github.com/modern-go/concurrent 1.0.3 // indirect
+	github.com/googleapis/gnostic v0.3.1 // indirect
+	https://source.codeaurora.org/quic/lc/external/github.com/maruel/panicparse/ v1.5.0 // indirect
+	github.com/google/go-containerregistry/pkg/crane v0.4.1 // indirect
+	github.com/prometheus/common/model v0.4.1 // indirect
+	github.com/google/go-containerregistry/cmd/crane // indirect11a80c250bc0d3fbb22992354e47505898cf2814
+	github.com/prometheus/common/expfmt v0.4.1
 	github.com/google/go-containerregistry/cmd/crane/cmd	11a80c250bc0d3fbb22992354e47505898cf2814
-	github.com/inconshreveable/mousetrap	v1.0.0
-	github.com/codeskyblue/go-sh	30169cf553fea42fbc2def3c996e3a5fb5d92d7c
-	github.com/spf13/cobra	v1.0.0
-	github.com/google/go-containerregistry/pkg/v1/cache	11a80c250bc0d3fbb22992354e47505898cf2814
-	github.com/prometheus/client_golang/prometheus/promhttp	v1.0.0
-	github.com/prometheus/client_golang/prometheus	v1.0.0
-	github.com/prometheus/client_golang/prometheus/internal	v1.0.0
-	github.com/go-logr/zapr	v0.1.0
-	github.com/kubernetes/api/extensions/v1beta1	v0.18.6
-	github.com/kubernetes/apimachinery/pkg/util/strategicpatch	v0.18.6
-	github.com/kubernetes/client-go/util/flowcontrol	v0.18.6
-	github.com/kubernetes/client-go/kubernetes/typed/admissionregistration/v1beta1	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/providers/docker	v0.7.0
-	github.com/kubernetes/api/storage/v1	v0.18.6
-	github.com/kubernetes/api/settings/v1alpha1	v0.18.6
-	github.com/kubernetes/client-go/tools/clientcmd/api/latest	v0.18.6
-	github.com/kubernetes/apimachinery/pkg/util/yaml	v0.18.6
-	github.com/kubernetes-sigs/controller-runtime/pkg/source	v0.6.2
-	github.com/kubernetes-sigs/controller-runtime/pkg/internal/testing/integration/internal	v0.6.2
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/create/actions/config	v0.7.0
-	github.com/kubernetes/api/admissionregistration/v1beta1	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeadm	v0.7.0
+	github.com/inconshreveable/mousetrap	v1.0.0 // indirect
+	github.com/codeskyblue/go-sh // indirect
+	github.com/spf13/cobra v1.0.0 // indirect
+	github.com/google/go-containerregistry/pkg/v1/cache // indirect
+	github.com/prometheus/client_golang/prometheus/promhttp v1.0.0 // indirect
+	github.com/prometheus/client_golang/prometheus v1.0.0 // indirect
+	github.com/prometheus/client_golang/prometheus/internal v1.0.0 // indirect
+	github.com/go-logr/zapr v0.1.0 // indirect
+	github.com/kubernetes/api/extensions/v1beta1 v0.18.6 // indirect
+	github.com/kubernetes/apimachinery/pkg/util/strategicpatch v0.18.6 // indirect
+	github.com/kubernetes/client-go/util/flowcontrol v0.18.6 // indirect
+	github.com/kubernetes/client-go/kubernetes/typed/admissionregistration/v1beta1v0.18.6 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/providers/docker v0.7.0  // indirect
+	github.com/kubernetes/api/storage/v1 v0.18.6 // indirect
+	github.com/kubernetes/api/settings/v1alpha1 v0.18.6 // indirect
+	github.com/kubernetes/client-go/tools/clientcmd/api/latest v0.18.6 // indirect
+	github.com/kubernetes/apimachinery/pkg/util/yaml v0.18.6 // indirect
+	github.com/kubernetes-sigs/controller-runtime/pkg/source v0.6.2 // indirect
+	github.com kubernetes-sigs/controller-runtime/pkg/internal/testing/integration/internal v0.6.2 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/create/actions/configv0.7.0 // indirect
+	github.com/kubernetes/api/admissionregistration/v1beta1 v0.18.6 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeadm v0.7.0 // indirect
 	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeconfig/internal/kubeconfig	v0.7.0
 	github.com/kubernetes/client-go/pkg/apis/clientauthentication/v1alpha1	v0.18.6
 	github.com/kubernetes/api/apps/v1	v0.18.6
