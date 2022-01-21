@@ -115,57 +115,57 @@ require (
 	github.com/kubernetes-sigs/kind/pkg/cluster/internal/create/actions/configv0.7.0 // indirect
 	github.com/kubernetes/api/admissionregistration/v1beta1 v0.18.6 // indirect
 	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeadm v0.7.0 // indirect
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeconfig/internal/kubeconfig	v0.7.0
-	github.com/kubernetes/client-go/pkg/apis/clientauthentication/v1alpha1	v0.18.6
-	github.com/kubernetes/api/apps/v1	v0.18.6
-	github.com/kubernetes/client-go/kubernetes/typed/coordination/v1beta1	v0.18.6
-	github.com/kubernetes/apimachinery/pkg/runtime/serializer/streaming	v0.18.6
-	github.com/kubernetes-sigs/controller-tools/pkg/crd/markers	v0.4.0
-	github.com/kubernetes/utils/pointer	c1c6865ac45113491fd8207923d28d4bcff03a88
-	github.com/kubernetes/client-go/util/homedir	v0.18.6
-	github.com/kubernetes/apiextensions-apiserver/pkg/apis/apiextensions/v1	v0.18.6
-	github.com/kubernetes/client-go/tools/pager	v0.18.6
-	github.com/golang/appengine/urlfetch	v1.5.0
-	github.com/kubernetes/api/networking/v1	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/internal/apis/config	v0.7.0
-	github.com/google/go-containerregistry/pkg/v1/validate	v0.1.0
-	github.com/kubernetes/api/batch/v1beta1	v0.18.6
-	github.com/google/go-containerregistry/pkg/v1/partial	v0.1.0
-	github.com/kubernetes/client-go/kubernetes/typed/apps/v1beta2	v0.18.6
-	github.com/kubernetes-sigs/controller-runtime/pkg/envtest/printer	v0.6.2
-	github.com/kubernetes-sigs/controller-runtime/pkg/conversion	v0.6.2
-	github.com/kubernetes-sigs/kind/pkg/cmd/kind/build/baseimage	v0.7.0
-	github.com/kubernetes/apimachinery/pkg/api/meta	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/context	v0.7.0
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/create/actions/installstorage	v0.7.0
-	github.com/kubernetes/apimachinery/pkg/runtime/serializer/json	v0.18.6
-	github.com/kubernetes/api/discovery/v1alpha1	v0.18.6
-	github.com/kubernetes/client-go/kubernetes/typed/apps/v1beta1	v0.18.6
-	github.com/kubernetes/apimachinery/third_party/forked/golang/reflect	v0.18.6
-	github.com/kubernetes-sigs/controller-runtime/pkg/metrics	v0.6.2
-	github.com/kubernetes-sigs/controller-tools/pkg/schemapatcher	v0.4.0
-	github.com/kubernetes/client-go/pkg/version	v0.18.6
-	github.com/kubernetes/api/admissionregistration/v1	v0.18.6
-	github.com/kubernetes/client-go/kubernetes/typed/settings/v1alpha1	v0.18.6
-	github.com/google/go-containerregistry/pkg/v1/remote/transport	v0.1.0
-	github.com/kubernetes/api/batch/v2alpha1	v0.18.6
-	github.com/kubernetes/client-go/plugin/pkg/client/auth/oidc	v0.18.6
-	github.com/golang/appengine/internal/urlfetch	v1.5.0
-	github.com/kubernetes-sigs/controller-runtime/pkg/ratelimiter	v0.6.2
-	github.com/kubernetes/client-go/kubernetes/typed/batch/v1beta1	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/build/base	v0.7.0
-	github.com/kubernetes/api/storage/v1alpha1	v0.18.6
-	github.com/kubernetes/client-go/tools/auth	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/cluster/internal/patch	v0.7.0
-	github.com/kubernetes/api/certificates/v1beta1	v0.18.6
-	github.com/kubernetes/apimachinery/pkg/fields	v0.18.6
-	github.com/kubernetes-sigs/controller-runtime/pkg/handler	v0.6.2
-	github.com/peterbourgon/ff	v3.0.0
-	github.com/kubernetes-sigs/controller-tools/pkg/markers	v0.4.0
-	github.com/kubernetes-sigs/controller-runtime/pkg/envtest	v0.6.2
-	github.com/kubernetes-sigs/controller-tools/pkg/webhook	v0.4.0
-	github.com/kubernetes/client-go/kubernetes/typed/auditregistration/v1alpha1	v0.18.6
-	github.com/kubernetes-sigs/kind/pkg/cmd/kind/build/nodeimage	v0.7.0
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/kubeconfig/internal/kubeconfig v0.7.0 // indirect
+	github.com/kubernetes/client-go/pkg/apis/clientauthentication/v1alpha1 v0.18.6 // indirect
+	github.com/kubernetes/api/apps/v1 v0.18.6 // indirect
+	github.com/kubernetes/client-go/kubernetes/typed/coordination/v1beta1 v0.18.6 // indirect
+	github.com/kubernetes/apimachinery/pkg/runtime/serializer/streaming v0.18.6 // indirect
+	github.com/kubernetes-sigs/controller-tools/pkg/crd/markers v0.4.0 // indirect
+	github.com/kubernetes/utils/pointer // indirect
+	github.com/kubernetes/client-go/util/homedir v0.18.6 // indirect
+	github.com/kubernetes/apiextensions-apiserver/pkg/apis/apiextensions/v1 v0.18.6 // indirect
+	github.com/kubernetes/client-go/tools/pager v0.18.6 // indirect
+	github.com/golang/appengine/urlfetch // indirect v1.5.0
+	github.com/kubernetes/api/networking/v1 v0.18.6 // indirect
+	github.com/kubernetes-sigs/kind/pkg/internal/apis/config v0.7.0 // indirect
+	github.com/google/go-containerregistry/pkg/v1/validate v0.1.0 // indirect
+	github.com/kubernetes/api/batch/v1beta1 v0.18.6 // indirect
+	github.com/google/go-containerregistry/pkg/v1/partial v0.1.0 // indirect
+	github.com/kubernetes/client-go/kubernetes/typed/apps/v1beta2 v0.18.6 // indirect
+	github.com/kubernetes-sigs/controller-runtime/pkg/envtest/printer v0.6.2 // indirect
+	github.com/kubernetes-sigs/controller-runtime/pkg/conversion v0.6.2 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cmd/kind/build/baseimage v0.7.0 // indirect
+	github.com/kubernetes/apimachinery/pkg/api/meta v0.18.6 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/context v0.7.0 // indirect
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/create/actions/installstorage v0.7.0 // indirect
+	github.com/kubernetes/apimachinery/pkg/runtime/serializer/json v0.18.6 // indirect
+	github.com/kubernetes/api/discovery/v1alpha1 v0.18.6 // indirect
+	github.com/kubernetes/client-go/kubernetes/typed/apps/v1beta1 v0.18.6
+	github.com/kubernetes/apimachinery/third_party/forked/golang/reflect v0.18.6
+	github.com/kubernetes-sigs/controller-runtime/pkg/metrics v0.6.2
+	github.com/kubernetes-sigs/controller-tools/pkg/schemapatcher v0.4.0
+	github.com/kubernetes/client-go/pkg/version v0.18.6
+	github.com/kubernetes/api/admissionregistration/v1 v0.18.6
+	github.com/kubernetes/client-go/kubernetes/typed/settings/v1alpha1 v0.18.6
+	github.com/google/go-containerregistry/pkg/v1/remote/transport v0.1.0
+	github.com/kubernetes/api/batch/v2alpha1 v0.18.6
+	github.com/kubernetes/client-go/plugin/pkg/client/auth/oidc v0.18.6
+	github.com/golang/appengine/internal/urlfetch v1.5.0
+	github.com/kubernetes-sigs/controller-runtime/pkg/ratelimiter v0.6.2
+	github.com/kubernetes/client-go/kubernetes/typed/batch/v1beta1 v0.18.6
+	github.com/kubernetes-sigs/kind/pkg/build/base v0.7.0
+	github.com/kubernetes/api/storage/v1alpha1 v0.18.6
+	github.com/kubernetes/client-go/tools/auth v0.18.6
+	github.com/kubernetes-sigs/kind/pkg/cluster/internal/patch v0.7.0
+	github.com/kubernetes/api/certificates/v1beta1 v0.18.6
+	github.com/kubernetes/apimachinery/pkg/fields v0.18.6
+	github.com/kubernetes-sigs/controller-runtime/pkg/handler v0.6.2
+	github.com/peterbourgon/ff v3.0.0
+	github.com/kubernetes-sigs/controller-tools/pkg/markers v0.4.0
+	github.com/kubernetes-sigs/controller-runtime/pkg/envtest v0.6.2
+	github.com/kubernetes-sigs/controller-tools/pkg/webhook v0.4.0
+	github.com/kubernetes/client-go/kubernetes/typed/auditregistration/v1alpha1 v0.18.6
+	github.com/kubernetes-sigs/kind/pkg/cmd/kind/build/nodeimage v0.7.0
 	github.com/kubernetes-sigs/controller-runtime/pkg/source/internal	v0.6.2
 	github.com/kubernetes/client-go/kubernetes/typed/flowcontrol/v1alpha1	v0.18.6
 	github.com/kubernetes/api/authorization/v1	v0.18.6
